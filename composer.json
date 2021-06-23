@@ -1,0 +1,23 @@
+{
+    "name": "ching/php-bunshin",
+    "description": "muilti progress",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MisterChing",
+            "email": "chfnaruto@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ching\\Php\\Bunshin\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "workerman/workerman": "^3.5",
+        "ext-pcntl": "*",
+        "ext-posix": "*"
+    }
+}
